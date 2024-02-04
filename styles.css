@@ -1,0 +1,357 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    
+}
+.naver{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(255, 252, 252);
+   position: fixed;
+   top: 0;
+   z-index: 10;
+   right: 0;
+   justify-content: space-between;
+   width: 100%;
+}
+
+logo{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: cursive;
+    transition: 0.5s ease-in-out;
+}
+
+
+.nav ul li{
+    display: inline;
+    margin: 0 20px;
+    
+}
+
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+ul li a:hover{
+    color: wheat;
+}
+
+
+  
+
+
+
+.ooii{
+   
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-left: 150px;
+  border: none;
+  padding: 40px 30px 40px 30px;
+  margin-top: 200px;
+  border-radius: 200px;
+  transition: 0.5s ease-in-out;
+ 
+ 
+}
+
+.ooii:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.content{
+   margin-left: 700px;
+   width: 20%;
+   
+position: relative;
+bottom: 500px;
+    
+}
+
+
+
+.pop{
+    font-size: 45px;
+    color:rgb(181, 141, 66);
+    cursor: pointer;
+}
+
+
+.uni{
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.and{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dog{
+    height: 40px;
+    width: 120px;
+    color: rgb(253, 253, 253);
+    background-color: rgb(36, 35, 35);
+border-radius: 13px;
+transition: 0.5s ease-in-out;
+}
+
+.dog:hover{
+    background-color: rgb(56, 49, 49);
+}
+
+.dog a{
+    color: white;
+     text-decoration:none ;
+     font-weight: bold;
+     font-size: larger;
+}
+
+
+.about{
+height: 100vh;
+width: 100%;
+padding: 50px 60x 50px 60px;
+
+
+
+}
+
+.abou{
+    margin: auto;
+   height: 60px;
+   width: 50%;
+   position: relative;
+   top: 15%;
+  
+   
+   
+}
+
+.opp{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.goo{
+    font-size: 80px;
+}
+
+
+.con{
+    border:  2px solid black;
+    border-radius: 13px;
+   
+    padding: 40px 30px 40px 30px;
+    margin: auto;
+    position: absolute;
+    top: 1300px;
+    right: 630px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.jo{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.jon{
+    border: 2px solid black;
+    border-radius: 13px;
+   
+    padding: 40px 30px 40px 30px;
+    margin: auto;
+    position: absolute;
+    top: 1300px;
+    right: 400px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.jon:hover{
+    border-color: aqua;
+    transform: scale(1.1);
+}
+
+.con:hover{
+    border-color:aqua ;
+    transform: scale(1.1);
+}
+
+.pdo{
+   
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+top: 1500px;
+right: 300px;
+
+}
+
+.christ{
+font-size: 20px;
+font-family: sans-serif;
+}
+
+.Contact{
+    height: 100vh;
+    width: 100%;
+
+}
+.Contact{
+    display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(22530.jpg);
+background-size: cover;
+background-position: center;
+color: white;
+
+}
+
+
+
+.doog{
+   margin-bottom: 500px;
+   padding: 30px 40px 30px 40px;
+}
+
+.yui{
+    font-size: 20px;
+}
+
+.popp{
+    font-size: 60px;
+}
+
+.loop{
+    border: 2px solid rgb(241, 238, 238);
+    padding: 30px 40px 30px 40px;
+    position: relative;
+    right: 300px;
+    bottom: 60px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.d{
+text-decoration: none;
+font-size: larger;
+color: rgb(255, 255, 255);
+}
+
+.d:hover{
+    color: rgb(130, 177, 193);
+}
+
+
+.koo{
+    margin-top: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.jooo{
+    border: 2px solid rgb(241, 238, 238);
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    right: 280px;
+    bottom: 60px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.too{
+font-size: 16px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.project{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.div{
+    border: 2px solid black;
+    padding: 30px 40px 30px 40px;
+    margin: 20px 30px 20px 30px;
+    cursor: pointer;
+    
+}
+
+.eat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.dd{
+    transition: 0.5s ease-in-out;
+}
+
+.dd:hover{
+    transform: scale(1.1);
+}
+
+
+.ttt{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.iiiii{
+    position: relative;
+    top: 360px;
+    right: 400px;
+    font-size: large;
+}
+
+
